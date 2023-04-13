@@ -12,7 +12,7 @@ GyPass style app
 - [x] Deve ser possível o usuário buscar academias próximas (até 10km);
 - [x] Deve ser possível o usuário buscar academias pelo nome;
 - [x] Deve ser possível o usuário realizar check-in em uma academia;
-- [] Deve ser possível validar o ckeck-in de um usuário;
+- [x] Deve ser possível validar o ckeck-in de um usuário;
 - [x] Deve ser possível cadastrar uma academia;
 
 ## RNs (Regras de negócio)
@@ -21,12 +21,12 @@ GyPass style app
 - [x] O usuário não fazer 2 check-ins no mesmo dia.
 - [x] O usuário não fazer check-in se não estiver perto (100m) da acadêmia;
 - [x] O check-in só pode ser validado até 20 minutos após criado;
-- [] O check-in só pode ser validado por administradores;
-- [] O check-in só pode ser cadastrada por administradores;
+- [x] O check-in só pode ser validado por administradores;
+- [x] O check-in só pode ser cadastrada por administradores;
 
 ## RNFs (Requisitos não funcionais)
 
 - [x] A senha do usuário precisa estar criptografada;
 - [x] Os dados da aplicação precisam estar persistidos em um banco PostgreSQLS;
 - [x] Todas as listas de dados precisam estar paginadas com 20 itens por página;
-- [] O usuário deve ser identificado por um JWT (JSON Web Token);
+- [x] O usuário deve ser identificado por um JWT (JSON Web Token);
